@@ -1,8 +1,6 @@
 # ChatGPT_Automation
 
-This project aims to monitor a designated folder for recently added transcript files and automate the execution of a Python script. This script leverages the content within the transcript files to generate prompts for [GPT-3.5-Turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) by [OpenAI](https://openai.com/) to obtain summaries. <br>
-
-The purpose of this project is to streamline the process of generating summaries for video transcripts using ChatGPT. Instead of manually copying and pasting each transcript into ChatGPT and then saving the summary, these scripts automate the entire workflow. The goal is to eliminate the hassle of manual interaction by automatically processing transcript files, obtaining summaries through ChatGPT, and saving the results into local text files.
+This project aims to monitor a designated folder for recently added video transcript files and automate the execution of a Python script. This script leverages the content within the transcript files to generate prompts for [GPT-3.5-Turbo](https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates) by [OpenAI](https://openai.com/) to obtain summaries. <br>
 
 ### Overview
 
