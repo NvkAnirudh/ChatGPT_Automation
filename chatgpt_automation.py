@@ -19,7 +19,7 @@ def get_summary(file_path):
     )
 
     t_file.close()
-    # Returnin the response along with the total tokens used for tracking the cost
+    # Returning the response along with the total tokens used for tracking the cost
     return completion.choices[0].message.content, completion.usage.total_tokens
 
 if __name__ == "__main__":
@@ -43,10 +43,10 @@ if __name__ == "__main__":
 
     total_cost = input_cost_incurred + output_cost_incurred
 
-    print("Total cost incurred for GPT3.5-Turbo: {}".format(total_cost))
+    print("Total cost incurred for GPT3.5-Turbo: {total_cost}")
 
     # Output folder named Summaries
-    output_dir = '/Users/anirudhnuti/Documents/Architecting_With_Google_Kubernetes_Engine/Google_Cloud_Fundamentals_Core_Infrastructure/Summaries'
+    output_dir = 'path/to/output/summary/folder'
     output_path = new_file_path.split("/")[-1][:-4] +'_summary' + '.txt'
 
     if not os.path.exists(output_dir):
