@@ -35,6 +35,6 @@ def monitor_folder(folder_path):
 
 if __name__ == "__main__":
     # Folder path to monitor
-    folder_to_monitor = "/Users/anirudhnuti/Documents/Architecting_With_Google_Kubernetes_Engine/Google_Cloud_Fundamentals_Core_Infrastructure/Transcripts"
+    folder_to_monitor = "path/to/folder"
     # Monitoring the folder
     monitor_folder(folder_to_monitor)
