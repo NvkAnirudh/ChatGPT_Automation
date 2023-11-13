@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     total_cost = input_cost_incurred + output_cost_incurred
 
-    print("Total cost incurred for GPT3.5-Turbo: {total_cost}")
+    print("Total cost incurred for GPT3.5-Turbo: {}".format(total_cost))
 
     # Output folder named Summaries
     output_dir = 'path/to/output/summary/folder'
@@ -56,4 +56,4 @@ if __name__ == "__main__":
     with open(os.path.join(output_dir, output_path), 'w') as file:
         file.write(response)
 
-    print("Summary successfully written to {output_path}")
+    print("Summary successfully written to {}".format(output_path))
