@@ -19,7 +19,7 @@ Check [this](https://platform.openai.com/docs/quickstart?context=python) to add 
 
 ## Usage
 
-1) Open the `auto_run.py` file and update the **FOLDER_TO_MONITOR** variable with the absolute path of the folder you want to monitor.
+1) Open the `auto_run.py` file and update the **FOLDER_TO_MONITOR** variable with the absolute path of the folder you want to monitor. Also, update **output_dir** in the `chatgpt_automation.py` script
 
 2) Run the script:
 
